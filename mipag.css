@@ -93,6 +93,7 @@ header .contenedor-texto .texto .profesion{
     font-size: 1em;
     line-height: 30px;
     width: 80%;
+    text-align: justify;
     margin: 40px auto 60px auto;
 }
 .main .acerca-de .texto .titulo{
