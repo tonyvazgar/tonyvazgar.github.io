@@ -22,7 +22,7 @@ body{
 
 
 header{
-    background: url('img/bg.jpg') #49a3d6;
+    background: #1e2b38;
     background-repeat: no-repeat;
     background-position: center;
     max-height: 600px;
@@ -33,7 +33,7 @@ header .menu{
 }
 header .menu a{
     margin: 0 20px;
-    color: #1e2b38;
+    color: #fff;
     padding-bottom: 9px;
     display: inline-block;
     text-decoration: none;
@@ -41,7 +41,7 @@ header .menu a{
     font-size: 1em;
 }
 header .menu a:hover{
-    border-bottom: 2px solid #1e2b38;
+    border-bottom: 2px solid #fff;
 }
 header .contenedor-texto{
     display: flex;
@@ -50,7 +50,7 @@ header .contenedor-texto{
     margin: 190px 0;
 }
 header .contenedor-texto .texto{
-    border: 2px solid  #1e2b38;
+    border: 2px solid  #fff;
     border-radius: 5px;
     display: inline-block;
     text-align: center;
@@ -58,7 +58,7 @@ header .contenedor-texto .texto{
 }
 header .contenedor-texto .texto h1,
 header .contenedor-texto .texto h2{
-    color: #1e2b38;
+    color: #fff;
     font-weight: 300;
     margin: 0;
 }
