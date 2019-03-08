@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: Helvetica, Arial;
+    background-image: url("images/fondo3.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    font-size: 16px;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+header{
+    background: #90A4AE;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+header nav{
+    width: 100%;
+}
+header nav ul{
+    width: 100%;
+    overflow: hidden;
+    list-style: none;
+}
+header nav ul div{
+    width: 100%;
+}
+header nav ul div img{
+    width: 5.3%;
+    vertical-align: top;
+    border-top-left-radius: 20px;
+    float: left;
+}
+header nav ul li{
+    float: left;
+}
+header nav ul li p{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    color: #FFF;
+    font-weight: bold;
+}
+header nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    color: #fff;
+}
+header nav ul li a:hover{
+    background: #78909C;
+    color: #fff;
+    border-radius: 10px;
+}
+.main{
+    width: 70%;
+    background: #78909C;
+    float: left;
+}
+.main .imgagen{
+    width: 100%;
+}
+.main .imagen img{
+    width: 100%;
+    vertical-align: top;
+    border-radius: 20px;
+}
+.main .posts{
+    padding: 40px;
+}
+.main .posts article h2{
+    margin-bottom: 20px;
+    color: #424242;
+}
+.main .posts article p{
+    margin-bottom: 15px;
+    line-height: 27px;
+    text-align: justify;
+}
+aside{
+    width: 30%;
+    background: #90A4AE;
+    padding: 20px;
+    color: #fff;
+    float: left;
+}
+aside .widget{
+    margin-bottom: 20px;
+}
+aside .widget .titulo{
+    color: #ff8000;
+    border-bottom: 1px solid #ff8000;
+    margin-bottom: 10px;
+    width: 100%;
+}
+aside .widget ul{
+    list-style: none;
+
+}
+aside .widget ul li{
+    border-bottom: 1px solid rgba(255,255,255, 0.2);
+    padding: 10px 0;
+}
+aside .widget ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+aside .widget ul li a:hover{
+    color: #8f8f8f;
+}
+aside .widget p{
+    /*line-height: 27px;*/
+    text-align: justify;
+    font-size: 16px;
+}
+footer{
+    width: 100%;
+    background: #90A4AE;
+    clear: both;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+footer p a{
+    color: #fff;
+}
+@media screen and (max-width:800px) {
+    .main{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+    }
+    footer{
+        width: 100%
+    }
+}

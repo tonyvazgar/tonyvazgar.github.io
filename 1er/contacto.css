@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: Helvetica, Arial;
+    background-image: url("images/fondo3.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    font-size: 16px;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+header{
+    background: #90A4AE;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+header nav{
+    width: 100%;
+}
+header nav ul{
+    width: 100%;
+    overflow: hidden;
+    list-style: none;
+}
+header nav ul div{
+    width: 100%;
+}
+header nav ul div img{
+    width: 5.3%;
+    vertical-align: top;
+    border-top-left-radius: 20px;
+    float: left;
+}
+header nav ul li{
+    float: left;
+}
+header nav ul li p{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    color: #FFF;
+    font-weight: bold;
+}
+header nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    color: #fff;
+}
+header nav ul li a:hover{
+    background: #78909C;
+    color: #fff;
+    border-radius: 10px;
+}
+.main{
+    width: 100%;
+    background: #78909C;
+    float: left;
+}
+.formulario{
+    background: #90A4AE;
+    width: 50%;
+    margin: 20px auto;
+    padding: 2%;
+    border-radius: 20px;
+}
+.formulario input{
+    display: block;
+}
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea{
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #226fc1;
+    font-family: Arial;
+    font-size: 16px;
+}
+.formulario input[type="text"]:focus,
+.formulario input[type="email"]:focus,
+.formulario textarea:focus{
+    border: 2px solid #000;
+}
+.formulario textarea{
+    min-height: 120px;
+    max-height: 300px;
+    min-width: 100%;
+    max-width: 100%;
+}
+.formulario input[type="submit"]{
+    width: 200px;
+    margin: 0 auto;
+    background: #78909C;
+    border: 1px solid #4fb560;
+    color: #4fb560;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 3px;
+}
+.formulario input[type="submit"]:hover{
+    background: #fff;
+    color: #78909C;
+}
+footer{
+    width: 100%;
+    background: #90A4AE;
+    clear: both;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+footer p a{
+    color: #fff;
+}
+@media screen and (max-width:800px) {
+    .main{
+        width: 100%;
+    }
+    .formulario{
+        width: 100%;
+    }
+            
+    footer{
+        width: 100%
+    }
+}
