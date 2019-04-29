@@ -70,8 +70,8 @@ header .contenedor-texto .texto h1, header .contenedor-texto .texto h2 {
 }
 
 header .contenedor-texto .texto .nombre {
-    margin-bottom: 10px;
-    font-size: 40px;
+    margin-bottom: 5px;
+    font-size: 35px;
     line-height: 50px;
 }
 header .contenedor-texto .texto .profesion a{
@@ -82,7 +82,7 @@ header .contenedor-texto .texto .profesion a:hover{
 }
 
 header .contenedor-texto .texto .profesion {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 25px;
 }
 
