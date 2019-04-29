@@ -74,6 +74,12 @@ header .contenedor-texto .texto .nombre {
     font-size: 50px;
     line-height: 50px;
 }
+header .contenedor-texto .texto .profesion a{
+    color: #fff;
+}
+header .contenedor-texto .texto .profesion a:hover{
+    color: #55799e;
+}
 
 header .contenedor-texto .texto .profesion {
     font-size: 25px;
