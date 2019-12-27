@@ -3,37 +3,11 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
-
-@font-face {
-    font-family: myFont;
-    src: url('google.ttf');
-}
-
-@font-face {
-    font-family: myFontBoldItalic;
-    src: url('google\ Bold\ Italic.ttf');
-}
-
-@font-face {
-    font-family: myFontBold;
-    src: url('google\ Sans\ Bold.ttf');
-}
-
-@font-face {
-    font-family: myFontItalic;
-    src: url('google\ Sans\ Italic.ttf');
-}
-
-@font-face {
-    font-family: myFontRegular;
-    src: url('google\ Sans\ Regular.ttf');
-}
-
 body {
     /* font-family: Muli, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; */
     padding-top: 54px;
     color: #868e96;
-    font-family: 'myFont', "Open Sans", sans-serif;
+    font-family: 'Questrial', sans-serif;
 }
 
 @media (min-width:992px) {
@@ -44,7 +18,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'myFontBold', "Open Sans", sans-serif;
+    font-family: 'Questrial', sans-serif;
     /* font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; */
     font-weight: 700;
     text-transform: uppercase;
@@ -57,7 +31,7 @@ h1 {
 }
 
 h2 {
-    font-size: 3.5rem
+    font-size: 3rem
 }
 
 h3 {
@@ -72,6 +46,7 @@ p.lead {
 .subheading {
     /* text-transform: uppercase; */
     font-weight: 500;
+    font-family: 'Questrial', sans-serif;
     /* font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; */
     font-size: 1.4rem
 }
