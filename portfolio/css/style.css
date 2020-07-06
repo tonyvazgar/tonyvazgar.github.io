@@ -1,0 +1,62 @@
+body, h1 {
+    font-family: 'Questrial', sans-serif;
+}
+
+img {
+    margin-bottom: -7px
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px
+}
+
+.overlay-image {
+    position: relative;
+    width: 100%;
+}
+
+/* Original image */
+
+.overlay-image .image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/* Images */
+.overlay-image .text {
+    color: #fff;
+    font-size: 8px;
+    line-height: 1.5em;
+    text-shadow: 2px 2px 2px #000;
+    text-align: left;
+    position: absolute;
+    top: 91%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.overlay-image .textland {
+    color: #fff;
+    font-size: 8px;
+    line-height: 1.5em;
+    text-shadow: 2px 2px 2px #000;
+    text-align: left;
+    position: absolute;
+    top: 83%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+@media screen and (min-width : 300px) 
+{
+  .overlay-image .text {
+    font-size: 6px;
+  }
+  .overlay-image .textland {
+    font-size: 6px;
+  }
+}
