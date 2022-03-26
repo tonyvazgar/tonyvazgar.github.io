@@ -75,9 +75,26 @@ p.lead {
 .dev-icons {
     font-size: 3rem
 }
+.dev-icons .list-inline-item b {
+    font-size: 15px;
+    text-align: center;
+    display: none;
+}
+.dev-icons .list-inline-item p {
+    font-size: 15px;
+}
+
+.dev-icons .list-inline-item p:hover {
+    color: #bd5d38;
+}
 
 .dev-icons .list-inline-item i:hover {
-    color: #bd5d38
+    color: #bd5d38;
+    display: none;
+}
+.dev-icons .list-inline-item:hover b {
+    color: #bd5d38;
+    display: block;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
